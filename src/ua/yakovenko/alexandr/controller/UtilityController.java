@@ -66,7 +66,10 @@ public class UtilityController {
                 case("mobile_number") : return REGEX_MOBILE_PHONE;
                 case("email") : return REGEX_EMAIL;
                 case("skype") : return REGEX_SKYPE;
-                case("address") : return REGEX_ADDRESS;
+                case("index") : return REGEX_INDEX;
+                case("city") : return REGEX_CITY;
+                case("street") : return REGEX_STREET;
+                case("number") : return REGEX_NUMBER;
                 case("data") : return REGEX_DATE;
                 default: return REGEX_DEFAULT;
             }
@@ -80,7 +83,10 @@ public class UtilityController {
                 case("mobile_number") : return REGEX_MOBILE_PHONE;
                 case("email") : return REGEX_EMAIL;
                 case("skype") : return REGEX_SKYPE;
-                case("address") : return REGEX_ADDRESS;
+                case("index") : return REGEX_INDEX;
+                case("city") : return REGEX_CITY;
+                case("street") : return REGEX_STREET;
+                case("number") : return REGEX_NUMBER;
                 case("data") : return REGEX_DATE;
                 default: return REGEX_DEFAULT;
             }

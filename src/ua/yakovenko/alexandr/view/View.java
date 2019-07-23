@@ -10,7 +10,7 @@ import static ua.yakovenko.alexandr.view.TextConstant.*;
  */
 public class View {
 
-    private static final String MESSAGE_BUNDLE_NAME = "ua.yakovenko.alexandr.view.message";
+    private static final String MESSAGE_BUNDLE_NAME = "message";
     public static final ResourceBundle bundle = ResourceBundle.getBundle(
                                              MESSAGE_BUNDLE_NAME,
                                               new Locale("en"));

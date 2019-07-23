@@ -1,16 +1,17 @@
 package ua.yakovenko.alexandr.controller;
 
 import static ua.yakovenko.alexandr.controller.RegexContainer.*;
+import static ua.yakovenko.alexandr.view.TextConstant.*;
 
 import ua.yakovenko.alexandr.model.Model;
 import ua.yakovenko.alexandr.view.View;
 import java.util.Scanner;
 
 public class UtilityController {
+
     private Model model;
     private View view;
     private Scanner sc;
-
 
     public UtilityController(Model model, View view, Scanner sc) {
         this.model = model;
@@ -26,11 +27,27 @@ public class UtilityController {
     String inputStringData(String message, String regex) {
         String res;
         view.printStringInput(message);
-        while( !(sc.hasNext() &&
+        switch (message) {
+            case (INPUT_SECOND_MOBILE_PHONE) : {
+               while (true) {
+                   res = sc.next();
+                   if (res.equals("-1")) {
+                       return null;
+                   } else if (res.matches(regex)) {
+                       return res;
+                   } else {
+                       view.printWrongInput(message);
+                   }
+               }
+            }
+            default : {
+                while( !(sc.hasNext() &&
                 (res = sc.next()).matches(regex))) {
-            view.printWrongInput(message);
+                view.printWrongInput(message);
+                }
+                return res;
+            }
         }
-        return res;
     }
 
     /**

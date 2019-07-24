@@ -19,7 +19,10 @@ public interface RegexContainer {
     //Skype
     String REGEX_SKYPE = "^[\\w\\d_-]{4,20}$";
     //Address
-    String REGEX_ADDRESS = "^\\d{3,5},[A-Z][a-z_-]{2,},[A-Z][a-z_-]{2,},\\d{1,3},\\d{1,5}";
+    String REGEX_INDEX = "^\\d{3,5}$";
+    String REGEX_CITY = "^[A-Z][a-z_-]{2,}$";
+    String REGEX_STREET = "^[A-Z][a-z_-]{2,}$";
+    String REGEX_NUMBER = "^\\d{1,5}$";
     //Date
     String REGEX_DATE = "^\\d{2}-\\d{2}-\\d{4}$";
     //Default

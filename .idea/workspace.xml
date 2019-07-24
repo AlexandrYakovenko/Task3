@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="864305e3-6e75-4906-917c-9de7bd226c2e" name="Default Changelist" comment="" />
+    <list default="true" id="864305e3-6e75-4906-917c-9de7bd226c2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/UtilityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/UtilityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/TextConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/TextConstant.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,15 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/View.java">
+        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/TextConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="217">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -26,32 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/UtilityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="83">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +39,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="260">
+              <caret line="146" column="66" selection-start-line="146" selection-start-column="66" selection-end-line="146" selection-end-column="66" />
+              <folding>
+                <element signature="e#1810#1811#0" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#2022#2023#0" expanded="true" />
+                <element signature="e#2082#2083#0" expanded="true" />
+                <element signature="e#3468#3469#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/model/Group.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/RegexContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-260">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -71,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/InputNoteNoteBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+            <state relative-caret-position="1820">
+              <caret line="91" column="78" lean-forward="true" selection-start-line="91" selection-start-column="78" selection-end-line="91" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,19 +83,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/RegexContainer.java">
+        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="125">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/TextConstant.java">
+        <entry file="file://$PROJECT_DIR$/src/message.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="156">
+              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,21 +123,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/Main.java" />
         <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/message_ua.properties" />
         <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/messages.properties" />
-        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/View.java" />
         <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/message.properties" />
-        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/RegexContainer.java" />
-        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/TextConstant.java" />
-        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/model/Model.java" />
         <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/model/Group.java" />
-        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/InputNoteNoteBook.java" />
+        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/message.properties" />
+        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/message_ua.properties" />
+        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/View.java" />
+        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/RegexContainer.java" />
+        <option value="$PROJECT_DIR$/src/message_ua.properties" />
+        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/TextConstant.java" />
         <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/UtilityController.java" />
+        <option value="$PROJECT_DIR$/src/message.properties" />
+        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/InputNoteNoteBook.java" />
       </list>
     </option>
   </component>
@@ -141,30 +162,37 @@
         <subPane>
           <expand>
             <path>
-              <item name="Task3_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task3_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3.git" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Task3_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task3_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3.git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Task3_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task3_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3.git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="alexandr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Task3_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task3_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3.git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="alexandr" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Task3_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task3_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3.git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandr" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3.git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="alexandr" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
@@ -178,7 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563799406027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563919308245" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -230,9 +258,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26605505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,12 +268,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5760684" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25470087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991454" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32991454" />
@@ -274,54 +301,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mmm.properties" />
     <entry file="file://$PROJECT_DIR$/mmm_ua.properties" />
-    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/message_ua.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/message.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/model/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/messages_ua.properties" />
     <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/messages.properties" />
-    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/model/Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Task3_2.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/message.properties" />
+    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/message_ua.properties" />
+    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/message.properties" />
+    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/message_ua.properties" />
+    <entry file="file://$PROJECT_DIR$/.idea/description.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="240">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -329,27 +333,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/message_ua.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="260">
+          <caret line="146" column="66" selection-start-line="146" selection-start-column="66" selection-end-line="146" selection-end-column="66" />
           <folding>
-            <element signature="e#1395#1396#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="e#1810#1811#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#3468#3469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/TextConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/InputNoteNoteBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        <state relative-caret-position="1820">
+          <caret line="91" column="78" lean-forward="true" selection-start-line="91" selection-start-column="78" selection-end-line="91" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -358,22 +399,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/RegexContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/view/TextConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        <state relative-caret-position="-260">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/yakovenko/alexandr/controller/UtilityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="83">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

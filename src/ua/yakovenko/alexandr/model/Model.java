@@ -13,7 +13,11 @@ public class Model {
     private String secondMobileNumber;
     private String email;
     private String skype;
-    private String address;
+    private String index;
+    private String city;
+    private String street;
+    private String numberOfHouse;
+    private String numberOfFlat;
     private String dateOfRegistarartion;
     private String dateOfChangingData;
 
@@ -104,12 +108,28 @@ public class Model {
         this.skype = skype;
     }
 
-    public String getAddress() {
-        return address;
+    public String getIndex() { return index; }
+
+    public void setIndex(String index) { this.index = index; }
+
+    public String getCity() { return city; }
+
+    public void setCity(String city) { this.city = city; }
+
+    public String getStreet() { return street; }
+
+    public void setStreet(String street) { this.street = street; }
+
+    public String getNumberOfHouse() { return numberOfHouse; }
+
+    public void setNumberOfHouse(String numberOfHouse) { this.numberOfHouse = numberOfHouse; }
+
+    public String getNumberOfFlat() {
+        return numberOfFlat;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setNumberOfFlat(String numberOfFlat) {
+        this.numberOfFlat = numberOfFlat;
     }
 
     public String getDateOfRegistarartion() {

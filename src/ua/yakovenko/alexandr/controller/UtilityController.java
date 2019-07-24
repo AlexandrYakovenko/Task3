@@ -22,28 +22,32 @@ public class UtilityController {
     /**
      * @param message
      * @param regex
-     * @return
+     * @return result of input
      */
     String inputStringData(String message, String regex) {
+      view.printStringInput(message);
+      return checkLogicInput(message, regex);
+    }
+
+    String checkLogicInput (String message, String regex) {
         String res;
-        view.printStringInput(message);
         switch (message) {
-            case (INPUT_SECOND_MOBILE_PHONE) : {
-               while (true) {
-                   res = sc.next();
-                   if (res.equals("-1")) {
-                       return null;
-                   } else if (res.matches(regex)) {
-                       return res;
-                   } else {
-                       view.printWrongInput(message);
-                   }
-               }
+            case (INPUT_SECOND_MOBILE_PHONE): {
+                while (true) {
+                    res = sc.next();
+                    if (res.equals("-1")) {
+                        return NOTHING;
+                    } else if (res.matches(regex)) {
+                        return res;
+                    } else {
+                        view.printWrongInput(message);
+                    }
+                }
             }
-            default : {
-                while( !(sc.hasNext() &&
-                (res = sc.next()).matches(regex))) {
-                view.printWrongInput(message);
+            default: {
+                while (!(sc.hasNext() &&
+                        (res = sc.next()).matches(regex))) {
+                    view.printWrongInput(message);
                 }
                 return res;
             }
@@ -66,7 +70,10 @@ public class UtilityController {
                 case("mobile_number") : return REGEX_MOBILE_PHONE;
                 case("email") : return REGEX_EMAIL;
                 case("skype") : return REGEX_SKYPE;
-                case("address") : return REGEX_ADDRESS;
+                case("index") : return REGEX_INDEX;
+                case("city") : return REGEX_CITY;
+                case("street") : return REGEX_STREET;
+                case("number") : return REGEX_NUMBER;
                 case("data") : return REGEX_DATE;
                 default: return REGEX_DEFAULT;
             }
@@ -80,7 +87,10 @@ public class UtilityController {
                 case("mobile_number") : return REGEX_MOBILE_PHONE;
                 case("email") : return REGEX_EMAIL;
                 case("skype") : return REGEX_SKYPE;
-                case("address") : return REGEX_ADDRESS;
+                case("index") : return REGEX_INDEX;
+                case("city") : return REGEX_CITY;
+                case("street") : return REGEX_STREET;
+                case("number") : return REGEX_NUMBER;
                 case("data") : return REGEX_DATE;
                 default: return REGEX_DEFAULT;
             }

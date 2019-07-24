@@ -62,8 +62,16 @@ public class InputNoteNoteBook {
                     uController.inputStringData(INPUT_EMAIL, uController.checkRegEx(str, "email")));
             model.setSkype(
                     uController.inputStringData(INPUT_SKYPE, uController.checkRegEx(str, "skype")));
-            model.setAddress(
-                    uController.inputStringData(INPUT_ADDRESS, uController.checkRegEx(str, "address")));
+            model.setIndex(
+                    uController.inputStringData(INPUT_INDEX, uController.checkRegEx(str, "index")));
+            model.setCity(
+                uController.inputStringData(INPUT_CITY, uController.checkRegEx(str, "city")));
+            model.setStreet(
+                uController.inputStringData(INPUT_STREET, uController.checkRegEx(str, "street")));
+            model.setNumberOfHouse(
+                uController.inputStringData(INPUT_NUMBER_OF_HOUSE, uController.checkRegEx(str, "number")));
+            model.setNumberOfFlat(
+                uController.inputStringData(INPUT_NUMBER_OF_FLAT, uController.checkRegEx(str, "number")));
             model.setDateOfRegistarartion(
                     uController.inputStringData(INPUT_DATE_OF_REGISTRATION, uController.checkRegEx(str, "data")));
             model.setDateOfChangingData(
@@ -73,22 +81,26 @@ public class InputNoteNoteBook {
 
     @Override
     public String toString() {
-        return "Your data {" +
-                ",\n surname='" + model.getSurname() + '\'' +
-                ",\n name='" + model.getName() + '\'' +
-                ",\n patronymic='" + model.getPatronymic() + '\'' +
-                ",\n nickname='" + model.getNickname() + '\'' +
-                ",\n comment='" + model.getComment() + '\'' +
-                ",\n group='" + model.getGroup() + '\'' +
-                ",\n homeNumber='" + model.getHomeNumber() + '\'' +
-                ",\n firstMobileNumber='" + model.getFirstMobileNumber() + '\'' +
-                ",\n secondMobileNumber='" + model.getSecondMobileNumber() + '\'' +
-                ",\n email='" + model.getEmail() + '\'' +
-                ",\n skype='" + model.getSkype() + '\'' +
-                ",\n address='" + model.getAddress() + '\'' +
-                ",\n dateOfRegistration='" + model.getDateOfRegistarartion() + '\'' +
-                ",\n dateOfChangingData='" + model.getDateOfChangingData() + '\'' +
-                '}';
+        return "Your data " +
+                ":\n 1. surname = " + model.getSurname() +
+                ",\n 2. name = " + model.getName() +
+                ",\n 3. patronymic = " + model.getPatronymic() +
+                ",\n 4. nickname = " + model.getNickname() +
+                ",\n 5. comment = " + model.getComment() +
+                ",\n 6. group = " + model.getGroup() +
+                ",\n 7. homeNumber = " + model.getHomeNumber()  +
+                ",\n 8. firstMobileNumber = " + model.getFirstMobileNumber() +
+                ",\n 9. secondMobileNumber = " + model.getSecondMobileNumber() +
+                ",\n 10. email = " + model.getEmail() +
+                ",\n 11. skype = " + model.getSkype() +
+                ",\n 12. address = " + model.getIndex() + ", " +
+                                    model.getCity() + ", " +
+                                    model.getStreet() + " " +
+                                    model.getNumberOfFlat() + ", " +
+                                    model.getNumberOfHouse() +
+                ",\n 13. dateOfRegistration = " + model.getDateOfRegistarartion() +
+                ",\n 14. dateOfChangingData = " + model.getDateOfChangingData() ;
+
     }
 }
 

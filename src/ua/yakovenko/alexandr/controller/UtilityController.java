@@ -22,28 +22,32 @@ public class UtilityController {
     /**
      * @param message
      * @param regex
-     * @return
+     * @return result of input
      */
     String inputStringData(String message, String regex) {
+      view.printStringInput(message);
+      return checkLogicInput(message, regex);
+    }
+
+    String checkLogicInput (String message, String regex) {
         String res;
-        view.printStringInput(message);
         switch (message) {
-            case (INPUT_SECOND_MOBILE_PHONE) : {
-               while (true) {
-                   res = sc.next();
-                   if (res.equals("-1")) {
-                       return null;
-                   } else if (res.matches(regex)) {
-                       return res;
-                   } else {
-                       view.printWrongInput(message);
-                   }
-               }
+            case (INPUT_SECOND_MOBILE_PHONE): {
+                while (true) {
+                    res = sc.next();
+                    if (res.equals("-1")) {
+                        return NOTHING;
+                    } else if (res.matches(regex)) {
+                        return res;
+                    } else {
+                        view.printWrongInput(message);
+                    }
+                }
             }
-            default : {
-                while( !(sc.hasNext() &&
-                (res = sc.next()).matches(regex))) {
-                view.printWrongInput(message);
+            default: {
+                while (!(sc.hasNext() &&
+                        (res = sc.next()).matches(regex))) {
+                    view.printWrongInput(message);
                 }
                 return res;
             }

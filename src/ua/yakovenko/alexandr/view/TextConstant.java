@@ -21,4 +21,5 @@ public interface TextConstant {
      String INPUT_NUMBER_OF_FLAT = "number.of.flat";
      String INPUT_DATE_OF_REGISTRATION = "date.of.registration";
      String INPUT_DATE_OF_CHANGING_DATA = "date.of.changing.data";
+     String NOTHING = "";
 }
